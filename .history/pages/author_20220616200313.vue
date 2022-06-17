@@ -1,0 +1,15 @@
+<template>
+  <div>
+    <div class="bg-gray-500 rounded-lg py-4">
+      <NuxtLink to="/game">Instagram</NuxtLink>
+      <NuxtLink to="/game">Facebook</NuxtLink>
+      <NuxtLink to="/game">Youtube</NuxtLink>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>

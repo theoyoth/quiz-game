@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* hide scrollbar */
+/* ================================ */
+* {
+  /* for explorer, edge */
+  -ms-overflow-style: none; 
+  /* for firefox */
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  /* for chrome, safari, and opera */
+  display: none;
+}
+/* ================================ */
+
+@keyframes to-top {
+  from{
+    transfrom: translateY(40px);
+  }
+  to {
+    transfrom: translateY(0);
+  }
+}
+
+.animate-to-top{
+  animation:to-top .5s ease;
+}

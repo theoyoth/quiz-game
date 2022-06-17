@@ -32,6 +32,7 @@
 </template>
 
 <script>
+import EndPage from '~/components/EndPage.vue'
 export default {
     data() {
         return {

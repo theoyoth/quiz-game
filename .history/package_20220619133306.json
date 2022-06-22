@@ -5,6 +5,7 @@
   "engines": {
     "node": "16.14.1"
   },
+  "type": "module",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

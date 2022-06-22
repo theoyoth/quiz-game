@@ -1,5 +1,6 @@
 <template>
   <div>
+    <particles-bg type="lines" :bg="true" :config="config"/>
     <h1 class="text-3xl mt-8 font-bold text-center">what's up!</h1>
     <div class="flex items-center justify-center h-80">
       <NuxtLink to="/type">
@@ -12,7 +13,16 @@
 </template>
 
 <script>
+import { ParticlesBg } from "particles-bg-vue";
+
 export default {
-  layout:'default',
-}
+  components: {
+    ParticlesBg
+  }
+  data(){
+    return { 
+      
+    }
+  }
+};
 </script>

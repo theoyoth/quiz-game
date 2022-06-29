@@ -54,10 +54,20 @@ export default {
   methods: {
     async getKuisAlkitab(){
       this.questionCounter = 0;
+      // const axiosReq = this.$axios.create({
+      //   baseURL:"lib/"
+      // })
       const res = await fetch("../kuis.json")
-      const data = await res.json()
-      this.allQuiz = data
+      const data = res.json()
+      console.log(data)
+      // .then(response => {
+      //   return response.json();
+      // })
+      // .then(data => this.allQuiz = data);
       // const res = await this.$axios.get('kuis.json')
+      // const data = require("../kuis.json")
+      // const res = axiosReq.get("kuis.json")
+
       await this.getNewQuestion();
     },
     async getNewQuestion() {

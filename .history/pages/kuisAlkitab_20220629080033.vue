@@ -54,10 +54,9 @@ export default {
   methods: {
     async getKuisAlkitab(){
       this.questionCounter = 0;
-      const res = await fetch("../kuis.json")
-      const data = await res.json()
-      this.allQuiz = data
-      // const res = await this.$axios.get('kuis.json')
+      const res = await this.$axios.get('~/kuis.json')
+      this.allQuiz = res.data
+
       await this.getNewQuestion();
     },
     async getNewQuestion() {
@@ -68,6 +67,7 @@ export default {
         this.questionCounterText = `${this.questionCounter}/${this.maxQuestions}`;
 
         this.questionIndex = Math.floor(Math.random() * this.allQuiz.length);
+        console.log(this.questionIndex)
         const currentQuestion = this.allQuiz[this.questionIndex];
         this.questionNow.push(currentQuestion);
         this.allQuiz.splice(this.questionIndex, 1);

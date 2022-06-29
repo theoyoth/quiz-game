@@ -54,6 +54,9 @@ export default {
   methods: {
     async getKuisAlkitab(){
       this.questionCounter = 0;
+      // const axiosReq = this.$axios.create({
+      //   baseURL:"lib/"
+      // })
       const res = await fetch("../kuis.json")
       const data = await res.json()
       this.allQuiz = data

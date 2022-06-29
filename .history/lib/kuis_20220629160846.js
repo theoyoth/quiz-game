@@ -1,0 +1,238 @@
+export default function QuizData() {
+  allQuestions: [
+    {
+      question: "Sumber peryataan Allah yang tertulis ialah ?",
+      choices: ["Injil", "Alkitab", "Kitab Taurat", "Kitab Musa"],
+      answer: "Alkitab",
+    },
+    {
+      question: "Pembagian kitab-kitab dalam Alkitab adalah ?",
+      choices: [
+        "Perjanjian Lama: 28, Perjanjian Baru: 38",
+        "Perjanjian Lama: 27, Perjanjian Baru: 39",
+        "Perjanjian Lama: 39, Perjanjian Baru: 27",
+        "Perjanjian Lama: 29, Perjanjian Baru: 37",
+      ],
+      answer: "Perjanjian Lama: 39, Perjanjian Baru: 27",
+    },
+    {
+      question: "Raja Israel yang diberi hikmat oleh Allah adalah ?",
+      choices: ["Daud", "Saul", "Salomo", "Rehabeam"],
+      answer: "Salomo",
+    },
+    {
+      question:
+        "Yang diutus oleh Allah ke dunia ini untuk menebus dosa manusia ialah ?",
+      choices: ["Musa", "Yesus Kristus", "Abraham", "Yohanes Pembaptis"],
+      answer: "Yesus Kristus",
+    },
+    {
+      question: "Di Betsaida Yesus menyembuhkan orang yang sakit...",
+      choices: ["Buta", "Lumpuh", "Pendarahan", "Kusta"],
+      answer: "Buta",
+    },
+    {
+      question:
+        "Perumpamaan yang menggambarkan kasih Allah kepada manusia adalah tentang ?",
+      choices: [
+        "Anak yang hilang",
+        "Talenta",
+        "Gadis-gadis yang bijak",
+        "Seorang penabur",
+      ],
+      answer: "Anak yang hilang",
+    },
+    {
+      question: "Kebangkitan Tuhan Yesus mempunyai arti..",
+      choices: [
+        "Hidup baru telah datang",
+        "Keselamatan belum sempurna",
+        "Maut telah dikalahkan",
+        "Manusia harus bertobat",
+      ],
+      answer: "Mau telah dikalahkan",
+    },
+    {
+      question:
+        "Setelah kebangkitan-Nya, Tuhan Yesus naik ke Sorga pada hari ke ?",
+      choices: ["3", "10", "40", "50"],
+      answer: "40",
+    },
+    {
+      question: "Makna baptisan dalan iman Kristen adalah....",
+      choices: [
+        "Lambang meterai sebagai umat Tuhan",
+        "Membasuh dan menyucikan",
+        "Membasuh dan membersihkan",
+        "Mencuci dan membasuh",
+      ],
+      answer: "Lambang meterai sebagai umat Tuhan",
+    },
+    {
+      question:
+        "Dalam Yohanes 17: 1-26, Tuhan Yesus berdoa untuk murid-muridNya agar ?",
+      choices: [
+        "Menjadi satu",
+        "Bersaing satu sama lain",
+        "Berpencar ke seluruh dunia",
+        "Tidak jatuh dalam dosa",
+      ],
+      answer: "Menjadi satu",
+    },
+    {
+      question: "Allah memanggil Abraham dan keluarganya dari tanah ?",
+      choices: ["Mesir", "Ur-Kasdim", "Yerusalem", "Nazaret"],
+      answer: "Ur-Kasdim",
+    },
+    {
+      question:
+        "Siapakah putra Abraham yang diberikan Allah kepadanya dan disebut sebagai anak perjanjian ?",
+      choices: ["Yakub", "Yusuf", "Ishak", "Ismael"],
+      answer: "Ishak",
+    },
+    {
+      question: "Arti nama Yakub dalam bahasa Ibrani ialah ?",
+      choices: [
+        "Diangkat dari air",
+        "Pahlawan Allah",
+        "Semoga Tuhan menjaga dan melindungi",
+        "Semoga Allah membantu kita",
+      ],
+      answer: "Semoga Tuhan menjaga dan melindungi",
+    },
+    {
+      question:
+        "Allah menyatakan diriNya kepada Musa di Gunung Horeb melalui ?",
+      choices: [
+        "Nyala api di semak belukar",
+        "Tiang awan",
+        "Kemuliaan di Bait Allah",
+        "Laut yang terbelah",
+      ],
+      answer: "Nyala api di semak belukar",
+    },
+    {
+      question:
+        "Di dalam melaksanakan tugasnya, Tuhan melengkapi gereja dengan ?",
+      choices: ["Peraturan Gereja", "Hukum Taurat", "Pendeta", "Roh Kudus"],
+      answer: "Roh Kudus",
+    },
+    {
+      question:
+        "Misi/tugas gereja di dunia adalah soteriologis. Artinya adalah ?",
+      choices: [
+        "Menolong orang-orang seiman",
+        "Menghakimi orang yang menolak Injil",
+        "Menyampaikan Injil Tuhan",
+        "Menyatakan atau menunjuk dosa manusia",
+      ],
+      answer: "Menyampaikan Injil Tuhan",
+    },
+    {
+      question: "Diakonia adalah tugas gereja untuk mewujudkan ?",
+      choices: [
+        "Kemajuan ekonomi gereja",
+        "Persekutuan",
+        "Pelayanan",
+        "Persembahan Jemaat",
+      ],
+      answer: "Pelayanan",
+    },
+    {
+      question: "Murid Tuhan Yesus yang mati karena kesaksiannya ialah ?",
+      choices: ["Simon Petrus", "Yohanes", "Stefanus", "Barnabas"],
+      answer: "Stefanus",
+    },
+    {
+      question: "Siapa yang sering disapa 'Didimus' ?",
+      choices: ["Yohanes", "Tomas", "Nataniel", "Yudas Iskariot"],
+      answer: "Tomas",
+    },
+    {
+      question:
+        "Perintah Tuhan Yesus dalam kehidupan bermasyarakat adalah harus saling ?",
+      choices: ["Menyegani", "Menghormati", "Menolong", "Mengasihi"],
+      answer: "Mengasihi",
+    },
+    {
+      question:
+        "Siapakah tukang tembaga dan tukang besi yang pertama dalam Alkitab ?",
+      choices: ["Tubal", "Kain", "Yabes", "Enos"],
+      answer: "Tubal",
+    },
+    {
+      question:
+        "Siapakah Raja mesir yang memberikan perlindungan kepada yerobeam ketika ia melarikan diri dari salomo ?",
+      choices: ["Sisak", "Hiram", "Yosua", "Yoel"],
+      answer: "Sisak",
+    },
+    {
+      question:
+        "Siapakah Raja Babel yang bermimpi mengenai sebuah patung yang terbuat dari logam-logam yang berharga ?",
+      choices: ["Sanherib", "Salomo", "Daud", "Nebukadnezer"],
+      answer: "Nebukadnezer",
+    },
+    {
+      question: "Dimanakah Tuhan Yesus di Lahirkan ?",
+      choices: ["Yerusalem", "Samaria", "Ur-kasdim", "Tanah Lot"],
+      answer: "Yerusalem",
+    },
+    {
+      question:
+        "Siapakah murid yang karena sibuk dengan pekerjaannya sehari-hari, tidak berpakaian ketika di lihat Yesus ?",
+      choices: ["Petrus", "Yohanes", "Yakobus", "Andreas"],
+      answer: "Petrus",
+    },
+    {
+      question:
+        "Siapa yang meminta tubuh Yesus kepada Pilatus setelah dia disalibkan ?",
+      choices: [
+        "Maria Magdalena",
+        "Maria, Bunda Yesus",
+        "Yusuf dari Arimatea",
+        "Maria dari Clopas",
+      ],
+      answer: "Yusuf dari Arimatea",
+    },
+    {
+      question: "Berapa banyak tulah yang Tuhan kirimkan ke Mesir ?",
+      choices: ["2", "10", "5", "13"],
+      answer: "10",
+    },
+    {
+      question: "Ketika Yesus mati, kejadian mana yang terjadi lebih dulu ?",
+      choices: [
+        "Kerudung terbelah menjadi dua",
+        "Gempa bumi",
+        "Makam itu pecah",
+        "Bayi menangis",
+      ],
+      answer: "Gempa bumi",
+    },
+    {
+      question: "Apa kitab terpendek dalam Perjanjian Baru ?",
+      choices: ["2 Yohanes", "Filemon", "3 Yohanes", "Yudas"],
+      answer: "2 Yohanes",
+    },
+    {
+      question: "Siapa yang menulis Kitab Wahyu ?",
+      choices: ["John", "Matthew", "Lukas", "Paulus"],
+      answer: "John",
+    },
+    {
+      question: "Berapa hari & malam Yesus berpuasa ?",
+      choices: [
+        "20 hari 20 malam",
+        "40 hari 40 malam",
+        "30 hari 30 malam",
+        "60 hari 60 malam",
+      ],
+      answer: "40 hari 40 malam",
+    },
+    {
+      question: "Kisah Para Rasul ditulis oleh siapa ?",
+      choices: ["Musa", "Yesaya", "Mikha", "Lukas"],
+      answer: "Lukas",
+    },
+  ];
+}

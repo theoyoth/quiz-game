@@ -1,4 +1,3 @@
-let development = process.env.NODE_ENV !== "production";
 export default {
   target: "server",
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -44,13 +43,11 @@ export default {
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  // dev: process.env.NODE_ENV !== "production",
+  dev: process.env.NODE_ENV !== "production",
   modules: ["@nuxtjs/axios"],
-  axios: {
-    baseURL: development
-      ? "http://localhost:3000/"
-      : "https://quizyoth.netlify.app/",
-  },
+  // axios:{
+  //   baseURL :
+  // },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

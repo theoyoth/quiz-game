@@ -33,6 +33,8 @@
 
 <script>
 import { timeout } from 'q';
+// import dataKuis from "../kuis.json"
+import kuisData from "~/lib/kuis.js"
 
 export default {
   data(){
@@ -45,7 +47,8 @@ export default {
       feedback:false,
       acceptingAnswer: false,
       questionIndex: 0,
-      questionNow: []
+      questionNow: [],
+      allQ : kuisData,
     }
   },
   async fetch(){

@@ -33,6 +33,8 @@
 
 <script>
 import { timeout } from 'q';
+// import dataKuis from "../kuis.json"
+import kuisData from "~/lib/kuis.js"
 
 export default {
   data(){
@@ -45,7 +47,8 @@ export default {
       feedback:false,
       acceptingAnswer: false,
       questionIndex: 0,
-      questionNow: []
+      questionNow: [],
+      allQ : kuisData,
     }
   },
   async fetch(){
@@ -54,9 +57,9 @@ export default {
   methods: {
     async getKuisAlkitab(){
       this.questionCounter = 0;
-      // const res = await fetch("../kuis.json")
-      // const data = await res.json()
-      // console.log(this.allQ)
+      const res = await fetch("../kuis.json")
+      const data = await res.json()
+      console.log(this.allQ)
       const resp = await this.$axios.get('kuis.json')
       this.allQuiz = resp.data
       await this.getNewQuestion();

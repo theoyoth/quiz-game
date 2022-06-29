@@ -7,7 +7,8 @@
         <NuxtLink :to="{name: 'games-game', params:{gameCategory:'sport_and_leisure'}}" class="bg-green-600 w-36 py-4 rounded-lg text-center hover:bg-green-500">Sport <font-awesome-icon :icon="['fas','futbol']" /></NuxtLink>
         <NuxtLink :to="{name: 'games-game', params:{gameCategory:'music'}}" class="bg-green-600 w-36 py-4 rounded-lg text-center hover:bg-green-500">Music <font-awesome-icon :icon="['fas','music']" /></NuxtLink>
         <NuxtLink :to="{name: 'games-game', params:{gameCategory:'geography'}}" class="bg-green-600 w-36 py-4 rounded-lg text-center hover:bg-green-500">Geography <font-awesome-icon :icon="['fas','map']" /></NuxtLink>
-        <NuxtLink to="/kuisAlkitab" class="bg-green-600 w-36 py-4 rounded-lg text-center hover:bg-green-500">Alkitab <font-awesome-icon :icon="['fas','book']" /></NuxtLink>
+          <font-awesome-icon :icon="['fas','crown']" class="absolute text-yellow-400 rotate-45 top-0 right-0"/>
+          <NuxtLink to="/kuisAlkitab" class="bg-green-600 w-36 py-4 rounded-lg text-center hover:bg-green-500">Alkitab <font-awesome-icon :icon="['fas','book']" /></NuxtLink>
       </div>
     </div>
   </div>

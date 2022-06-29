@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Sumber peryataan Allah yang tertulis ialah ?",
+    "choices": ["Injil", "Alkitab", "Kitab Taurat", "Kitab Musa"],
+    "answer": "Alkitab"
+  },
+  {
+    "question": "Pembagian kitab-kitab dalam Alkitab adalah?",
+    "choices": [
+      "Perjanjian Lama: 28, Perjanjian Baru: 38",
+      "Perjanjian Lama: 27, Perjanjian Baru: 39",
+      "Perjanjian Lama: 39, Perjanjian Baru: 27",
+      "Perjanjian Lama: 29, Perjanjian Baru: 37"
+    ],
+    "answer": "Perjanjian Lama: 39, Perjanjian Baru: 27"
+  },
+  {
+    "question": "Raja Israel yang diberi hikmat oleh Allah adalah",
+    "choices": ["Daud", "Saul", "Salomo", "Rehabeam"],
+    "answer": "Salomo"
+  },
+  {
+    "question": "Yang diutus oleh Allah ke dunia ini untuk menebus dosa manusia ialah",
+    "choices": ["Musa", "Yesus Kristus", "Abraham", "Yohanes Pembaptis"],
+    "answer": "Yesus Kristus"
+  },
+  {
+    "question": "Di Betsaida Yesus menyembuhkan orang yang sakit...",
+    "choices": ["Buta", "Lumpuh", "Pendarahan", "Kusta"],
+    "answer": "Buta"
+  },
+  {
+    "question": "Perumpamaan yang menggambarkan kasih Allah kepada manusia adalah tentang ?",
+    "choices": [
+      "Anak yang hilang",
+      "Talenta",
+      "Gadis-gadis yang bijak",
+      "Seorang penabur"
+    ],
+    "answer": "Anak yang hilang"
+  },
+  {
+    "question": "Kebangkitan Tuhan Yesus mempunyai arti..",
+    "choices": [
+      "Hidup baru telah datang",
+      "Keselamatan belum sempurna",
+      "Maut telah dikalahkan",
+      "Manusia harus bertobat"
+    ],
+    "answer": "Mau telah dikalahkan"
+  },
+  {
+    "question": "Setelah kebangkitan-Nya, Tuhan Yesus naik ke Sorga pada hari ke ?",
+    "choices": ["3", "10", "40", "50"],
+    "answer": "40"
+  },
+  {
+    "question": "Setelah kebangkitan-Nya, Tuhan Yesus naik ke Sorga pada hari ke ?",
+    "choices": ["3", "10", "40", "50"],
+    "answer": "40"
+  }
+]

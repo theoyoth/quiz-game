@@ -79,9 +79,12 @@ export default {
             const currentQuestion = this.allQuestions[this.questionIndex];
             this.questionNow.push(currentQuestion);
             this.allQuestions.splice(this.questionIndex, 1);
-       
+            this.acceptingAnswer = true;
         },
         sendAnswer(e) {
+            if (!this.acceptingAnswer)
+                return;
+            this.acceptingAnswer = false;
             const target = e.target;
             this.selectedAnswer = target.innerText;
             const answer = this.questionNow[0].correctAnswer;

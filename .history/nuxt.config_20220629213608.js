@@ -66,10 +66,10 @@ export default {
 
     // The implementation, how the routes are obtained is up to you
     routes: [
-      "game/general_knowledge",
-      "game/sport_and_leisure",
-      "game/music",
-      "game/geography",
+      "games/general_knowledge",
+      "games/sport_and_leisure",
+      "games/music",
+      "games/",
     ],
   },
 

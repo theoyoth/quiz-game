@@ -49,16 +49,16 @@ export default {
     }
   },
   head() {
-    return {
-      link: [
-        {
-          hid: 'canonical',
-          rel: 'canonical',
-          href: 'https://quizyoth.netlify.app/'
-        }
-      ]
-    };
-  },
+      return {
+        link: [
+          {
+            hid: 'canonical',
+            rel: 'canonical',
+            href: 'https://quizyoth.netlify.app/'
+          }
+        ]
+      };
+    },
   async fetch(){
     await this.getKuisAlkitab();
   },

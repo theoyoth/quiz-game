@@ -65,12 +65,7 @@ export default {
     gzip: true,
 
     // The implementation, how the routes are obtained is up to you
-    routes: [
-      "game/general_knowledge",
-      "game/sport_and_leisure",
-      "game/music",
-      "game/geography",
-    ],
+    routes: ["games/general_knowledge", "games/sport_and_leisure", "games/"],
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

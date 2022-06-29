@@ -21,10 +21,10 @@ export default {
           {
             hid: 'canonical',
             rel: 'canonical',
-            href: 'https://quizyoth.netlify.app/'
+            href: 'https://thenextbit.de/'
           }
         ]
-      }
+      };
     }
 }
 </script>

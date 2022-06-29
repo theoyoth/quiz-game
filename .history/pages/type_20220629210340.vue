@@ -24,7 +24,7 @@ export default {
             href: 'https://quizyoth.netlify.app/'
           }
         ]
-      }
+      };
     }
 }
 </script>

@@ -60,18 +60,6 @@ export default {
       ? "http://localhost:3000/"
       : "https://quizyoth.netlify.app/",
   },
-  sitemap: {
-    hostname: "https://quizyoth.netlify.app/",
-    gzip: true,
-
-    // The implementation, how the routes are obtained is up to you
-    routes: [
-      "game/general_knowledge",
-      "game/sport_and_leisure",
-      "game/music",
-      "game/geography",
-    ],
-  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

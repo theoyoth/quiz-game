@@ -16,3 +16,6 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
+
+Live link
+https://quizyoth.netlify.app/type

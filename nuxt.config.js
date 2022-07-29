@@ -24,6 +24,26 @@ export default {
         name: "og:description",
         content: "I give you quiz's website to practice your knowledge",
       },
+      {
+        hid: "twitter:card",
+        name: "twitter:card",
+        content: "quizyoth website",
+      },
+      {
+        hid: "twitter:description",
+        name: "twitter:description",
+        content: "quizyoth is website where you can answer typical questions",
+      },
+      {
+        hid: "twitter:title",
+        name: "twitter:title",
+        content: "quizyoth",
+      },
+      {
+        hid: "twitter:image",
+        name: "twitter:image",
+        content: "/quizyoth.png",
+      },
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],

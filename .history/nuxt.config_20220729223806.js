@@ -24,6 +24,26 @@ export default {
         name: "og:description",
         content: "I give you quiz's website to practice your knowledge",
       },
+      {
+        hid: "twitter:card",
+        name: "twitter:card",
+        content: "quizyoth website",
+      },
+      {
+        hid: "twitter:description",
+        name: "twitter:description",
+        content: "quizyoth is website where you can answer typical questions",
+      },
+      {
+        hid: "twitter:title",
+        name: "twitter:title",
+        content: "quizyoth",
+      },
+      {
+        hid: "twitter:image",
+        name: "twitter:image",
+        content: "/quizyoth.png",
+      },
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
@@ -65,14 +85,12 @@ export default {
     gzip: true,
 
     // The implementation, how the routes are obtained is up to you
-    routes: async () => {
-      const routes = [];
-      const posts = await getPosts();
-      posts.forEach((post) => {
-        routes.push("/blog/" + post.uid);
-      });
-      return routes;
-    },
+    routes: [
+      "game/general_knowledge",
+      "game/sport_and_leisure",
+      "game/music",
+      "game/geography",
+    ],
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
